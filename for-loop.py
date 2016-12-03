@@ -27,3 +27,16 @@ for i in [12, 16, 17, 24, 29, 30]:
         continue        # don't process it
     print(i)
 print("done")
+
+
+
+######
+sentence = raw_input('Please enter a sentence: ')
+no_spaces = ''
+
+for letter in sentence:
+    if letter != ' ':
+        no_spaces += letter
+
+print("You sentence with spaces removed:")
+print(no_spaces)
